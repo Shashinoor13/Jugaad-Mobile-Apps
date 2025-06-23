@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293760417851",
+    "project_id": "jugaad-database-2025",
+    "storage_bucket": "jugaad-database-2025.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293760417851:android:6b316ae972518930d89c1e",
+        "android_client_info": {
+          "package_name": "com.ehomesolutions.provider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSOpjYd-jzh8dJwFTlYXk-LW1-ZH4pBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293760417851:android:49838e4e0cb3ada5d89c1e",
+        "android_client_info": {
+          "package_name": "com.provider.jugaad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjSOpjYd-jzh8dJwFTlYXk-LW1-ZH4pBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

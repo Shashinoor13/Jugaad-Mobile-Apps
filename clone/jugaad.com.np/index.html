@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover Jugaad, the ultimate app for on-demand services. From everyday chores to specialized tasks, enjoy a wide range of services, verified providers, subscription benefits, and efficient solutions for busy lives. Download now and simplify your life">
+    <meta name="keywords"
+        content="Jugaad app, on-demand services, service providers, task management, verified providers, online payments, service quotes, user-friendly app, reliable services, hassle-free lifestyle">
+    <meta name="author" content="Jugaad Team">
+    <title>Jugaad - Simplify Your Everyday Tasks with Verified Service Providers</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/colors/grape.css">
+    <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header>
+            <nav aria-label="navbar" x-data class="absolute z-50 top-0 w-full">
+                <div class="container px-4 py-4">
+                    <div class="flex items-center justify-center sm:justify-between gap-2">
+                        <a href="/" class="cursor-pointer">
+                            <img class="h-10 w-auto" src="/assets/img/logo.png" alt="website logo" />
+                        </a>
+                        <ul class="hidden sm:flex items-center gap-x-4">
+                            <li>
+                                <a href="#"><img src="./assets/img/photos/button-appstore.svg" class="h-8 rounded"
+                                        alt=""></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./assets/img/photos/button-google-play.svg" class="h-8 rounded"
+                                        alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600"
+            data-image-src="./assets/img/photos/bg23.png">
+            <div class="container pt-16 pt-md-18 pb-9">
+                <div class="row gx-0 gy-10 align-items-center text-center text-lg-start">
+                    <div class="col-lg-6 col-xxl-5 position-relative" data-group="page-title"
+                        data-delay="700">
+                        <img src="./assets/img/svg/doodle1.svg" class="h-9 position-absolute d-none d-lg-block"
+                            data-delay="3000" style="top: -9%; left: -6%" alt="">
+                        <img src="./assets/img/svg/doodle2.svg" class="h-15 position-absolute d-none d-lg-block"
+                            data-delay="3000" style="bottom: 9%; right: -22%" alt="">
+                        <h1 class="display-1 fs-50 mb-4"><span class="text-teal-700">Jugaad</span>
+                            - Your Ultimate Solution for Everyday Services.</h1>
+                        <p class="lead fs-24 lh-sm mb-7">Jugaad connects you with verified service providers for all
+                            your needs. Enjoy a user-friendly app, competitive quotes, and efficient solutions. Download
+                            now from the App Store or Google Play Store.</p>
+                        <div class="d-flex justify-content-center gap-3 justify-content-lg-start"
+                            data-group="page-title-buttons" data-delay="1800">
+                            <span><a href="#" class="me-2"><img src="./assets/img/photos/button-appstore.svg"
+                                        class="h-11 rounded-xl" alt=""></a></span>
+                            <span><a href="#"><img src="./assets/img/photos/button-google-play.svg"
+                                        class="h-11 rounded-xl" alt=""></a></span>
+                        </div>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-lg-6 ms-auto mb-n20 mb-xxl-n22">
+                        <figure><img src="./assets/img/photos/devices3.png" alt=""></figure>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+            <div class="overflow-hidden" style="z-index:1;">
+                <div class="divider text-light mx-n2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+                        <g fill="currentColor">
+                            <polygon points="1440 100 0 100 0 85 1440 0 1440 100" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <!-- /.overflow-hidden -->
+        </section>
+
+
+        <section class="wrapper bg-light">
+            <div class="container pt-18 pt-md-20 pb-14 pb-md-16">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto position-relative">
+                        <img src="./assets/img/svg/doodle3.svg" class="h-11 position-absolute d-none d-lg-block"
+                            style="top: -45%; left: 23%" alt="">
+                        <img src="./assets/img/svg/doodle4.svg" class="h-8 position-absolute d-none d-lg-block"
+                            style="top: 6%; right: 2%" alt="">
+                        <h2 class="fs-16 text-uppercase text-muted mb-3">App Features</h2>
+                        <h3 class="display-3 mb-11 px-lg-5 px-xl-0 px-xxl-6">
+                            <span class="text-teal-700 7">Jugaad</span> takes the stress out of your daily
+                            chores by connecting you with verified service providers for a wide range of tasks. From
+                            secure transactions to personalized solutions, here’s what makes Jugaad the ultimate service
+                            app:
+                        </h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row mb-20">
+                    <div class="col-xxl-11 mx-auto">
+                        <div class="row gx-md-8 gy-10 text-center">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-yellow rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/cloud-network-2.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Always Connected</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-green rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/touchscreen.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Easy to Use</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-purple rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/lock.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Trusted Professionals</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-pink rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/rocket.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Quick Results</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-violet rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/bar-chart.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Service Insights</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-orange rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/safe.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Online Banking</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-blue rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/controls.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">Flexible Options</h4>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 col-lg-3">
+                                <div class="svg-bg svg-bg-lg bg-pale-leaf rounded-xl mb-4"> <img
+                                        src="./assets/img/icons/solid/checked.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /> </div>
+                                <h4 class="fs-20">List of Transactions</h4>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row text-center">
+                    <div class="col-md-10 col-lg-7 mx-auto position-relative">
+                        <img src="./assets/img/svg/doodle5.svg" class="w-15 position-absolute d-none d-lg-block"
+                            data-delay="1800" style="bottom: -60%; right: 10%" alt="">
+                        <img src="./assets/img/svg/doodle6.svg" class="h-15 position-absolute d-none d-lg-block"
+                            data-delay="1800" style="top: -40%; left: -5%" alt="">
+                        <h2 class="fs-16 text-uppercase text-muted mb-3">How It Works</h2>
+                        <h3 class="display-3 mb-8 px-xl-6">Get Started in 4 Simple Steps.</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-xxl-11 mx-auto">
+                        <div class="row gy-10 gy-lg-0 text-center d-flex align-items-center">
+                            <div class="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                                <figure class="mx-auto"><img src="./assets/img/photos/devices4.png" alt=""></figure>
+                            </div>
+                            <!-- /column -->
+                            <div class="w-100 d-lg-none"></div>
+                            <div class="col-md-6 col-lg-4 order-lg-first">
+                                <div class="mb-8">
+                                    <span class="fs-60 lh-1 mb-3 fw-normal text-teal-700 7">01</span>
+                                    <h4 class="fs-20">Download and Sign Up</h4>
+                                    <p class="mb-0 px-xl-7">Get the Jugaad app from the App Store or Google Play Store,
+                                        and set up your account in minutes.</p>
+                                </div>
+                                <!-- /div -->
+                                <div>
+                                    <span class="fs-60 lh-1 mb-3 fw-normal text-teal-700 7">02</span>
+                                    <h4 class="fs-20">Post Your Request</h4>
+                                    <p class="mb-0 px-xl-7">Share your service needs to help verified providers
+                                        understand your requirements.</p>
+                                </div>
+                                <!-- /div -->
+                            </div>
+                            <!-- /column -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="mb-8">
+                                    <span class="fs-60 lh-1 mb-3 fw-normal text-teal-700 7">03</span>
+                                    <h4 class="fs-20">Compare Quotes</h4>
+                                    <p class="mb-0 px-xl-7">Receive competitive quotes, compare offerings, and choose
+                                        the best fit.</p>
+                                </div>
+                                <!-- /div -->
+                                <div>
+                                    <span class="fs-60 lh-1 mb-3 fw-normal text-teal-700 7">04</span>
+                                    <h4 class="fs-20">Get the Job Done</h4>
+                                    <p class="mb-0 px-xl-7">Confirm your booking and let the service provider handle the
+                                        task professionally.</p>
+                                </div>
+                                <!-- /div -->
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <section class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600 bg-content"
+            data-image-src="./assets/img/photos/bg23.png">
+            <div class="container py-14 position-relative" style="z-index: 2;">
+                <div class="row">
+                    <div class="col-xl-11 col-xxl-10 mx-auto">
+                        <div class="position-relative">
+                            <img src="./assets/img/svg/doodle7.svg" class="h-7 position-absolute d-none d-lg-block"
+                                data-delay="1800" style="top: -90%; right: -3%" alt="">
+                            <img src="./assets/img/svg/doodle8.svg" class="h-14 position-absolute d-none d-lg-block"
+                                data-delay="1800" style="top: -20%; left: -12%" alt="">
+                            <h2 class="fs-16 text-uppercase text-muted mb-3 text-center">FAQ</h2>
+                            <h3 class="display-3 mb-11 px-lg-8 px-xl-11 text-center">If you don’t find the answer you’re
+                                looking for, feel free to reach out to us via email or our contact form.</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 mb-0">
+                                <div id="accordion-1" class="accordion-wrapper">
+                                    <div class="card accordion-item shadow-lg">
+                                        <div class="card-header" id="accordion-heading-1-1">
+                                            <button class="collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-collapse-1-1" aria-expanded="false"
+                                                aria-controls="accordion-collapse-1-1">Can I cancel my service
+                                                request?</button>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div id="accordion-collapse-1-1" class="collapse"
+                                            aria-labelledby="accordion-heading-1-1" data-bs-target="#accordion-1">
+                                            <div class="card-body visible">
+                                                <p>Yes, you can cancel your request before it is confirmed by the
+                                                    service provider.</p>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+                                        <!-- /.collapse -->
+                                    </div>
+                                    <!-- /.card -->
+                                    <div class="card accordion-item shadow-lg">
+                                        <div class="card-header" id="accordion-heading-1-2">
+                                            <button class="collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-collapse-1-2" aria-expanded="false"
+                                                aria-controls="accordion-collapse-1-2">Which payment methods are
+                                                accepted?</button>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div id="accordion-collapse-1-2" class="collapse"
+                                            aria-labelledby="accordion-heading-1-2" data-bs-target="#accordion-1">
+                                            <div class="card-body visible">
+                                                <p>We accept online payments, credit/debit cards, and cash on delivery.
+                                                </p>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+                                        <!-- /.collapse -->
+                                    </div>
+                                    <!-- /.card -->
+                                    <div class="card accordion-item shadow-lg">
+                                        <div class="card-header" id="accordion-heading-1-3">
+                                            <button class="collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-collapse-1-3" aria-expanded="false"
+                                                aria-controls="accordion-collapse-1-3">How can I manage my
+                                                account?</button>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div id="accordion-collapse-1-3" class="collapse"
+                                            aria-labelledby="accordion-heading-1-3" data-bs-target="#accordion-1">
+                                            <div class="card-body visible">
+                                                <p>You can manage your profile, service history, and preferences
+                                                    directly from the app’s settings.</p>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+                                        <!-- /.collapse -->
+                                    </div>
+                                    <!-- /.card -->
+                                </div>
+                                <!-- /.accordion-wrapper -->
+                            </div>
+                            <!--/column -->
+                            <div class="col-lg-6">
+                                <div id="accordion-2" class="accordion-wrapper">
+                                    <div class="card accordion-item shadow-lg">
+                                        <div class="card-header" id="accordion-heading-2-1">
+                                            <button class="collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-collapse-2-1" aria-expanded="false"
+                                                aria-controls="accordion-collapse-2-1">How do I get an invoice for my
+                                                bookings?</button>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div id="accordion-collapse-2-1" class="collapse"
+                                            aria-labelledby="accordion-heading-2-1" data-bs-target="#accordion-2">
+                                            <div class="card-body visible">
+                                                <p>An invoice will be sent to your registered email after the service is
+                                                    completed.</p>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+                                        <!-- /.collapse -->
+                                    </div>
+                                    <!-- /.card -->
+                                    <div class="card accordion-item shadow-lg">
+                                        <div class="card-header" id="accordion-heading-2-2">
+                                            <button class="collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-collapse-2-2" aria-expanded="false"
+                                                aria-controls="accordion-collapse-2-2">Are there any discounts or offers
+                                                available?</button>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div id="accordion-collapse-2-2" class="collapse"
+                                            aria-labelledby="accordion-heading-2-2" data-bs-target="#accordion-2">
+                                            <div class="card-body visible">
+                                                <p>Yes, we regularly provide exclusive packages and festival discounts
+                                                    for our users.</p>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+                                        <!-- /.collapse -->
+                                    </div>
+                                    <!-- /.card -->
+                                    <div class="card accordion-item shadow-lg">
+                                        <div class="card-header" id="accordion-heading-2-3">
+                                            <button class="collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#accordion-collapse-2-3" aria-expanded="false"
+                                                aria-controls="accordion-collapse-2-3">Do you offer free
+                                                consultations?</button>
+                                        </div>
+                                        <!-- /.card-header -->
+                                        <div id="accordion-collapse-2-3" class="collapse"
+                                            aria-labelledby="accordion-heading-2-3" data-bs-target="#accordion-2">
+                                            <div class="card-body visible">
+                                                <p>Some service providers may offer free consultations—check the details
+                                                    while booking.</p>
+                                            </div>
+                                            <!-- /.card-body -->
+                                        </div>
+                                        <!-- /.collapse -->
+                                    </div>
+                                    <!-- /.card -->
+                                </div>
+                                <!-- /.accordion-wrapper -->
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <section class="wrapper bg-light">
+            <div class="container py-16 py-md-18">
+                <div class="row text-center">
+                    <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mx-auto position-relative">
+                        <img src="./assets/img/svg/doodle3.svg" class="h-11 position-absolute d-none d-lg-block"
+                            style="top: -20%; right: -12%" alt="">
+                        <img src="./assets/img/svg/doodle9.svg" class="h-17 position-absolute d-none d-lg-block"
+                            style="bottom: 5%; left: -17%" alt="">
+                        <h2 class="fs-16 text-uppercase text-muted mb-3 text-center">Why Choose Jugaad?</h2>
+                        <h3 class="display-3 mb-12 text-center">Here are a few reasons why our customers trust and love
+                            using the Jugaad app:</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row d-flex align-items-start mb-19">
+                    <div class="col-lg-6 position-lg-sticky" style="top: 8rem;">
+                        <figure><img src="./assets/img/photos/devices5.png" alt=""></figure>
+                    </div>
+                    <!-- /column -->
+                    <div class="col-lg-5 ms-auto">
+                        <div class="d-flex flex-row mb-8">
+                            <div>
+                                <div class="svg-bg svg-bg-lg bg-pale-grape rounded-xl me-5"><img
+                                        src="./assets/img/icons/solid/calendar.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /></div>
+                            </div>
+                            <div>
+                                <h4 class="fs-20">Wide Range of Services:</h4>
+                                <p>From daily chores to specialized tasks, Jugaad connects you with verified service
+                                    providers for every need.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-8">
+                            <div>
+                                <div class="svg-bg svg-bg-lg bg-pale-green rounded-xl me-5"><img
+                                        src="./assets/img/icons/solid/currency.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /></div>
+                            </div>
+                            <div>
+                                <h4 class="fs-20">User-Friendly Platform:</h4>
+                                <p>Navigate the app effortlessly, request services, and book appointments in just a few
+                                    taps.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-8">
+                            <div>
+                                <div class="svg-bg svg-bg-lg bg-pale-pink rounded-xl me-5"><img
+                                        src="./assets/img/icons/solid/server.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /></div>
+                            </div>
+                            <div>
+                                <h4 class="fs-20">Verified Service Providers:</h4>
+                                <p>Enjoy peace of mind knowing that all service providers are thoroughly verified for
+                                    quality and professionalism.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-8">
+                            <div>
+                                <div class="svg-bg svg-bg-lg bg-pale-yellow rounded-xl me-5"><img
+                                        src="./assets/img/icons/solid/devices.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /></div>
+                            </div>
+                            <div>
+                                <h4 class="fs-20">Exclusive Offers:</h4>
+                                <p>Benefit from festival packages, subscription features, and additional service add-ons
+                                    for greater value.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-8">
+                            <div>
+                                <div class="svg-bg svg-bg-lg bg-pale-blue rounded-xl me-5"><img
+                                        src="./assets/img/icons/solid/search.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /></div>
+                            </div>
+                            <div>
+                                <h4 class="fs-20">Seamless Experience:</h4>
+                                <p>Manage your tasks, compare quotes, and track progress—all in one place.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row mb-8">
+                            <div>
+                                <div class="svg-bg svg-bg-lg bg-pale-leaf rounded-xl me-5"><img
+                                        src="./assets/img/icons/solid/compare.svg"
+                                        class="svg-inject icon-svg solid text-navy" alt="" /></div>
+                            </div>
+                            <div>
+                                <h4 class="fs-20">Efficient and Reliable:</h4>
+                                <p>Perfect for busy schedules, Jugaad delivers dependable services when you need them
+                                    the most.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center position-relative">
+                        <img src="./assets/img/svg/doodle1.svg" class="h-9 position-absolute d-none d-lg-block"
+                            style="top: 2%; left: 9%" alt="">
+                        <img src="./assets/img/svg/doodle10.svg" class="h-7 position-absolute d-none d-lg-block"
+                            style="top: -45%; left: -17%" alt="">
+                        <img src="./assets/img/svg/doodle11.svg" class="h-13 position-absolute d-none d-lg-block"
+                            style="top: -40%; right: -15%" alt="">
+                        <h2 class="fs-16 text-uppercase text-muted mb-3">Happy Customers</h2>
+                        <h3 class="display-3 mb-11 px-xl-10 px-xxl-13">Don’t take our word for it. See what customers
+                            are saying about <span class="text-teal-700 7">Jugaad!</span></h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="grid mb-12">
+                    <div class="row isotope gy-6">
+                        <div class="item col-md-6 col-xl-4">
+                            <div class="card shadow-none rounded-xl bg-soft-grape">
+                                <div class="card-body">
+                                    <blockquote class="icon mb-0">
+                                        <p>“Jugaad made my life so much easier. I booked a service for home cleaning,
+                                            and everything was handled perfectly. The provider was professional, and the
+                                            process was seamless!”</p>
+                                        <div class="blockquote-details">
+                                            <div class="info ps-0">
+                                                <h5 class="mb-1">Aditi Sharma</h5>
+                                                <p class="mb-0">Teacher</p>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!--/column -->
+                        <div class="item col-md-6 col-xl-4">
+                            <div class="card shadow-none rounded-xl bg-soft-green">
+                                <div class="card-body">
+                                    <blockquote class="icon mb-0">
+                                        <p>“Finding a reliable service provider for my plumbing issue used to be a
+                                            hassle. With Jugaad, I got multiple quotes, compared options, and booked
+                                            within minutes. Highly recommend it!”</p>
+                                        <div class="blockquote-details">
+                                            <div class="info ps-0">
+                                                <h5 class="mb-1">Rajesh Kumar</h5>
+                                                <p class="mb-0">Engineer</p>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!--/column -->
+                        <div class="item col-md-6 col-xl-4">
+                            <div class="card shadow-none rounded-xl bg-soft-orange">
+                                <div class="card-body">
+                                    <blockquote class="icon mb-0">
+                                        <p>“I love the subscription features. It’s convenient, and I always get priority
+                                            service. Jugaad has truly set a standard for on-demand services.”</p>
+                                        <div class="blockquote-details">
+                                            <div class="info ps-0">
+                                                <h5 class="mb-1">Sujata Mishra</h5>
+                                                <p class="mb-0">Entrepreneur</p>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!--/column -->
+                        <div class="item col-md-6 col-xl-4">
+                            <div class="card shadow-none rounded-xl bg-soft-pink">
+                                <div class="card-body">
+                                    <blockquote class="icon mb-0">
+                                        <p>“From booking a mechanic to getting help with my garden, Jugaad has always
+                                            connected me with trustworthy professionals. This app is a lifesaver!”</p>
+                                        <div class="blockquote-details">
+                                            <div class="info ps-0">
+                                                <h5 class="mb-1">Anil Gupta</h5>
+                                                <p class="mb-0">Consultant</p>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!--/column -->
+                        <div class="item col-md-6 col-xl-4">
+                            <div class="card shadow-none rounded-xl bg-soft-blue">
+                                <div class="card-body">
+                                    <blockquote class="icon mb-0">
+                                        <p>“The user-friendly interface makes everything so easy. I can book services,
+                                            track progress, and make payments without any confusion. Amazing app!”</p>
+                                        <div class="blockquote-details">
+                                            <div class="info ps-0">
+                                                <h5 class="mb-1">Neha Verma</h5>
+                                                <p class="mb-0">Software Developer</p>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!--/column -->
+                        <div class="item col-md-6 col-xl-4">
+                            <div class="card shadow-none rounded-xl bg-soft-blue">
+                                <div class="card-body">
+                                    <blockquote class="icon mb-0">
+                                        <p>“The user-friendly interface makes everything so easy. I can book services,
+                                            track progress, and make payments without any confusion. Amazing app!”</p>
+                                        <div class="blockquote-details">
+                                            <div class="info ps-0">
+                                                <h5 class="mb-1">Neha Verma</h5>
+                                                <p class="mb-0">Software Developer</p>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- /.card-body -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!--/column -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.grid-view -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <section class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600"
+            data-image-src="./assets/img/photos/bg23.png">
+            <div class="overflow-hidden" style="z-index:1;">
+                <div class="divider divider-alt text-light mx-n2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+                        <g fill="currentColor">
+                            <polygon points="1440 100 0 15 0 0 1440 0 1440 100" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="container pt-10 pt-lg-10 pt-md-13 pb-8 pb-md-10 text-center text-lg-start">
+                <div class="row gx-0 gy-10">
+                    <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 position-relative">
+                        <img src="./assets/img/svg/doodle2.svg" class="h-15 position-absolute d-none d-lg-block"
+                            style="bottom: 36%; right: -25%" alt="">
+                        <img src="./assets/img/svg/doodle6.svg" class="h-14 position-absolute d-none d-lg-block"
+                            data-delay="1800" style="top: -20%; left: -25%" alt="">
+                        <h2 class="display-3 mb-4">All Your Services in One Place</h2>
+                        <p class="lead fs-24 lh-sm mb-7">Simplify your everyday tasks with Jugaad. From booking trusted service providers to managing requests and payments, everything is just a few taps away.</p>
+                        <div class="d-flex justify-content-center gap-3 justify-content-lg-start">
+                            <span><a href="#" class="me-2"><img src="./assets/img/photos/button-appstore.svg"
+                                        class="h-11 rounded-xl" alt=""></a></span>
+                            <span><a href="#"><img src="./assets/img/photos/button-google-play.svg"
+                                        class="h-11 rounded-xl" alt=""></a></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ms-auto mt-lg-n15 mt-xl-n20">
+                        <figure><img src="./assets/img/photos/devices6.png" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container px-4 py-4">
+            <div class="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-3">
+                <a class="cursor-pointer">
+                    <img class="h-10 w-auto" src="/assets/img/logo.png" alt="website logo" />
+                </a>
+                <ul class="flex items-center flex-wrap justify-center sm:justify-end gap-3">
+                    <li>
+                        <a href="/data-safety.html">Data Safety</a>
+                    </li>
+                    <li>
+                        <a href="/delete-account.html">Delete Account</a>
+                    </li>
+                    <li>
+                        <a href="/terms-and-conditions.html">Terms and conditions</a>
+                    </li>
+                    <li>
+                        <a href="/privacy-policy.html">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
